@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    margin :300px;
+    padding: 50px;
+    border: 5px dashed blue; 
+    background-color: skyblue;
+}
+body{
+    background: url(../Moduli11/politik.jfif);
+}
