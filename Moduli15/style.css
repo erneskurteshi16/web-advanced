@@ -25,3 +25,61 @@ div#div3{
     top: 100px;
     right: 150px;
 }
+
+#parent{
+      position: relative;
+    border: 3px solid black ;
+    width: 250px;
+    height: 250px;
+}
+
+#child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    right: 100px;
+    top: 100px;
+}
+
+#horizintal{
+    list-style-type: none;
+    background-color: blueviolet;
+    margin-bottom: 100px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#horizontal ul li{
+    float: left;
+}
+   
+#horizontal ul li a{
+    background-color: darkgoldenrod;
+    padding: 100px;
+    text-decoration: none;
+}
+
+#horizintal ul li a:hover{
+    background-color: brown;
+}
+
+#vertical{
+    list-style-type: none;
+    background-color: blueviolet;
+    margin-bottom: 100px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#vertical ul li{
+    background-color: green;
+}
+
+#vertical ul li a{
+    color: pink;
+    padding: 50px;
+    list-style: none;
+}
+   
+    
