@@ -1,0 +1,63 @@
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    background-color: aqua;
+    display:block ;
+    padding: 50px;
+    width: 20px;
+    background-color: black;
+    box-shadow: 40px 40px 40px 40px; color: blue;
+}
+
+.tooltip{
+    padding: 20px;
+    display: inline-block;
+    border: 2px dotted black ; 
+}
+
+.tooltip-text{
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    width: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    left: 6%;
+    margin-left: -60px;
+}
+
+.example1{
+    height: 150px;
+    width: 150px;
+    background-image: url(download.jpg);
+    border-radius: 5px 10px ;
+}
+
+.example2{
+    height: 150px;
+    width: 150px;
+    background-image: url(download.jpg);
+    border-radius: 5px 10px 15px 20px;
+}
+
+.example3{
+    height: 150px;
+    width: 150px;
+    background-image: url(download.jpg);
+    border-radius: 5px 20px ;
+}
+
+.example4{
+    height: 150px;
+    width: 150px;
+    background-image: url(download.jpg);
+    border-radius: 50% ;
+}
