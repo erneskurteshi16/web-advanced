@@ -1,8 +1,4 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: #0b0b0b;
-    color: #e9eee9;
-}
+
 
 nav{
     margin: 20px;
@@ -17,12 +13,85 @@ nav li{
     border: red;
     margin: 10px;
     padding: 10px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 nav img{
     width: 50px;
     height: 50px;
     float: left;
+}
+
+
+body, html {
+    height: 80%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image . This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("craiyon_170645_genera_un_immagine_di_buon_2026_per_l_azienda_ASIS_SPA_Salernitana_Reti.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+
+
+.gallery:hover{
+    border: 1px solid rgb(78, 133, 252);
+}
+
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
