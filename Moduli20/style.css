@@ -1,0 +1,23 @@
+
+
+#horizintal{
+    list-style-type: none;
+    background-color: blueviolet;
+    margin-bottom: 200px;
+    padding: 200px;
+    overflow: hidden;
+}
+
+#horizontal ul li{
+    float: left;
+}
+   
+#horizontal ul li a{
+    background-color: darkgoldenrod;
+    padding: 200px;
+    text-decoration: none;
+}
+
+#horizintal ul li a:hover{
+    background-color: brown;
+}
