@@ -77,3 +77,38 @@
 .container4 div:nth-child(2){
     align-self: flex-end;
 }
+
+/* align-items: stretch, flex-start, flex-end, center */
+.container5{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    height: 200px;
+    align-items: stretch;
+}
+
+.container5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+/*align-content: flex-start, flex-end, center, space-between, space-around, stretch */
+
+.container6{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    margin: 10px;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.container6 div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
