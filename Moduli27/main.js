@@ -43,7 +43,7 @@
 
 // console.log(toPerimeter(3,2,5));
 
-var Car = {name:"BMW", color="red", viti=2008, vin="bbb8525", licencePlate:"01-255-NV"};
+var Car = {name:"BMW", color:"red", viti:2008, vin:"bbb8525", licencePlate:"01-255-NV"};
 
 alert(car.licencePlate);
 
