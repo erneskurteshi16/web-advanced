@@ -44,3 +44,26 @@ btn2.onclick = function(){
         text2.innerHTML = "The result is equal to 10.";
     }
 }
+var wakeeuptime;
+var dsTime;
+var sleeptime;  
+var moom = 12;
+
+function showCurrentTime(){
+    var clock = document.getElementById("clock");
+    var currentTime = new Date();
+
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+
+    var meridian = "AM";
+
+    if(hours >= noon){
+        meridian = "PM";
+    }
+   
+    var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian;
+    clock.innerText = clockTime;
+    changeImage();
+}
